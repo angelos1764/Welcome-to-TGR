@@ -4,7 +4,7 @@ from discord.utils import get
 
 client = discord.Client()
 
-buyer_words = ["m+", "mythic", "mythic+", "buy", "price", "much", "cn", "castle", "raid", "pvp", "boost", "looking", "lf", "key", "cost", "heroic", "carry", "torghast"]
+buyer_words = ["m+", "book", "mythic", "mythic+", "buy", "price", "much", "cn", "castle", "raid", "pvp", "boost", "looking", "lf", "key", "cost", "heroic", "carry", "torghast"]
 
 
 @client.event
