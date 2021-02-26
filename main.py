@@ -9,6 +9,7 @@ buyer_words = ["m+", "mythic", "mythic+", "buy", "price", "much", "cn", "castle"
 
 @client.event
 async def on_ready():
+    print("Conected to github and heroku")
     print('We have logged in as {0.user}'.format(client))
 
 
